@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint .",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+	"preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
   },
   "author": "MiXACT",
   "license": "ISC",
